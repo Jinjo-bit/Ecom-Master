@@ -1,0 +1,117 @@
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+/*NAV BAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #750001;
+}
+
+/*REST OF STYLE*/
+
+/*JUMBOTRON*/
+
+.jumbotron{
+	background-image: url("shopbanner.jpg");
+	height: auto;
+	text-align: center;
+    padding-top: auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #111;
+}
+
+.jumbotron h1 {
+	color: white;
+    font-size: 200px;
+    
+}
+
+/*FOOTER*/
+.mainFooter{
+	background-color: #333333;
+	color: white;
+	height: 30px;
+	padding-top: 15px;
+    padding-left: 15px;
+}
+
+b{
+    font-size: 200px;
+    color: 
+    #c2396c;
+    
+}
+
+p{
+    font-size: 120px;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+
+    .jumbotron h1{
+        font-size: 150px;
+        line-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .jumbotron h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .jumbotron h1{
+        font-size: 75px;
+        line-height: 200px;
+    }
+}
+@media only screen and (max-width:120px){
+    .p{
+        font-size:75px;
+        line-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    b{
+        font-size:75px;
+        line-height:200px;
+    }
+}
+
